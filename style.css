@@ -1,0 +1,25 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.white {
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.black {
+    background-color: black;
+    border: 1px solid grey;
+}
+
+.red {
+    background-color: red;
+    border: 1px solid grey;
+}
